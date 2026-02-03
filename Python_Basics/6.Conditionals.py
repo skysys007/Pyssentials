@@ -4,9 +4,9 @@
 # if the condition is true the code block associated with the if statement 
 # will be executed
 # else the else block will be executed
-# age = int(input("Enter your age: "))
-# if(age>=18):
-#     print("yes")
+age = int(input("Enter your age: "))
+if(age>=18):
+    print("yes")
 
 # RELATIONAL OPERATORS - used to evaluate conditions
 # == - equals
@@ -23,15 +23,15 @@
 # elif clauses are used to chain multiple conditions in an if else ladder
 
 # program to find the greatest of four numbers
-# nums = []
-# for i in range(0, 4):
-#     nums.append(int(input(f"Enter number {i+1}:")))
-# greatest = nums[0] 
-# for i in nums:
-#     if(i>=greatest):
-#         greatest = i
+nums = []
+for i in range(0, 4):
+    nums.append(int(input(f"Enter number {i+1}:")))
+greatest = nums[0] 
+for i in nums:
+    if(i>=greatest):
+        greatest = i
 
-# print("The greatest value is: ", greatest)
+print("The greatest value is: ", greatest)
 
 # Write a program to find out whether a student has passed or failed if it requires a
 # total of 40% and at least 33% in each subject to pass. Assume 3 subjects and

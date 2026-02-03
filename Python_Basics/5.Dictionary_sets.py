@@ -62,15 +62,15 @@ dictionary = {
     "alvida":"bye",
     "Suprabhaat":"Good Morning"
 }
-# word = input(f"What do you want to translate to English: {dictionary.keys()}: ")
-# print(dictionary.get(word))
+word = input(f"What do you want to translate to English: {dictionary.keys()}: ")
+print(dictionary.get(word))
 
 # Input 8 numbers in set
 s = set()
-# for i in range(0,8):
-#     x = input(f"Enter number {i+1}: ")
-#     s = s.union({x})
-# print(s)
+for i in range(0,8):
+    x = input(f"Enter number {i+1}: ")
+    s = s.union({x})
+print(s)
 
 # Can we have 18 and '18' in a set
 s = {18, '18'}

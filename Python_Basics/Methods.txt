@@ -1,0 +1,89 @@
+==============================
+INPUT / OUTPUT
+==============================
+input        - Takes user input from the keyboard as a string.
+print        - Outputs text or values to the console.
+
+
+==============================
+TYPE CHECKING & TYPE CONVERSION
+==============================
+type         - Returns the data type of an object.
+int          - Converts a value to an integer.
+str          - Converts a value to a string.
+float        - Converts a value to a floating-point number.
+bool         - Converts a value to boolean.
+
+
+==============================
+BUILT-IN DATA STRUCTURE CONSTRUCTORS
+==============================
+list         - Creates a new list object.
+tuple        - Creates a new tuple object.
+set          - Creates a new set object.
+dict         - Creates a new dictionary object.
+
+
+==============================
+NUMERIC & UTILITY FUNCTIONS
+==============================
+range        - Generates a sequence of numbers for iteration.
+len          - Returns the number of items in an object.
+max          - Returns the largest item in an iterable.
+pow          - Raises a number to a power (used implicitly via ** operator).
+
+
+==============================
+LIST OPERATIONS
+==============================
+append       - Adds an element to the end of a list.
+insert       - Inserts an element at a specific index in a list.
+pop          - Removes and returns an element from a list.
+remove       - Removes a specific element from a list.
+sort         - Sorts a list in ascending order.
+reverse      - Reverses the order of elements in a list.
+count        - Counts occurrences of an element in a list.
+index        - Returns the index of the first occurrence of an element.
+
+
+==============================
+TUPLE OPERATIONS
+==============================
+count        - Counts occurrences of an element in a tuple.
+index        - Returns the index of the first occurrence of an element.
+
+
+==============================
+DICTIONARY OPERATIONS
+==============================
+get          - Returns the value associated with a given key.
+items        - Returns all key-value pairs of a dictionary.
+keys         - Returns all keys of a dictionary.
+update       - Updates a dictionary with new key-value pairs.
+
+
+==============================
+SET OPERATIONS
+==============================
+add            - Adds an element to a set.
+remove         - Removes a specific element from a set.
+pop            - Removes and returns a random element from a set.
+union          - Returns a new set containing all elements from sets.
+intersection  - Returns a new set containing common elements.
+clear          - Removes all elements from a set.
+
+
+==============================
+STRING OPERATIONS
+==============================
+endswith     - Checks whether a string ends with a given substring.
+find         - Finds a substring and returns its first index.
+replace      - Replaces part of a string with another string.
+capitalize   - Capitalizes the first character of a string.
+
+
+==============================
+MODULE / LIBRARY FUNCTIONS
+==============================
+os.listdir   - Returns a list of files and directories in a path.
+np.max       - Returns the maximum value from a list or array (NumPy).
